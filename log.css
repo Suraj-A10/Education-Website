@@ -1,0 +1,113 @@
+*{
+    margin:  0%;
+    padding: 0%;
+
+}
+body{
+    background-image: url("login.png");
+    background-size:  100% 740px;
+    background-size: cover;
+    background-position: center;
+}
+.contain{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(104, 88, 88, 0.5);
+  margin: 50px 390px;
+    text-align: center;
+    color: rgb(3, 12, 0);
+}
+.contain.text{
+    position: relative;
+    top: 7%;
+}
+.inpu1{
+    border: none;
+    background-color: rgb(192, 200, 200);
+    border-bottom: 3px solid white;
+    width: 250px;
+    margin-top: 40px;
+    outline: none;
+    color: rgb(18, 19, 20);
+    
+}
+
+p{
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+p span{
+    color: rgb(155, 46, 210);
+}
+p{
+    color:rgb(76, 92, 207)
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: rgb(190, 67, 19);
+    color: black;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+button:hover{
+    border: 3px solid rgb(9, 13, 21);
+    color: rgb(8, 136, 249);
+    font-size: 20px;
+    background-color: black;
+}
+
+.contain{
+    font-size: 36px;
+    color: rgb(10, 48, 136);
+}
+
+p span:hover{
+   color: rgb(157, 68, 23);
+   font-size: 23px;
+   border-style: dashed;
+   background-color: black;
+
+}
+
+body{
+    margin:10;
+    overflow-x:hidden;
+    }
+    
+.footer{
+    color: aqua;
+    
+}
+
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.footer li{
+    margin: 0 20px;
+    font-family: "Dongle-regular";
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+  
+}
+.footer li a{
+    text-decoration: none;
+    font-family: "Dongle-regular";
+    color:rgb(176, 51, 20);
+}
+.footer li a:hover{
+    border: 3px ;
+    border-style: double;
+    color: rgb(150, 46, 60);
+    font-size: 23px;
+    background-color: black;
+}
